@@ -9,16 +9,10 @@
 
 class Solution(object):
     def flipAndInvertImage(self, image):
-        image = [i[::-1] for i in image]
-        for i in range(0, len(image)):
-            for j in range(0, len(image[i])):
-                if image[i][j] == 0:
-                    image[i][j] = 1
-                else:
-                    image[i][j] = 0
-        return image
+        return [reversed([i ^ 1 for i in row]) for row in image]
 
 
 result = Solution().flipAndInvertImage(
     [[1, 1, 0, 0], [1, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 0]])
 print(result)
+
