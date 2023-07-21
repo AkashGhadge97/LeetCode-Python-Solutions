@@ -7,14 +7,15 @@
 
 class Solution(object):
     def balancedStringSplit(self, s):
-        count = 0
+        lCount = 0
+        rCount = 0
         final = 0
         for i in s:
             if i == 'L':
-                count += 1
+                lCount += 1
             if i == 'R':
-                count -= 1
-            if count == 0:
+                rCount += 1
+            if lCount == rCount:
                 final += 1
         return final
 
