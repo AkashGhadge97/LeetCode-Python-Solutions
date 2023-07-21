@@ -11,10 +11,8 @@ class Solution(object):
     def cellsInRange(self, s):
         startNum = int(s.split(':')[0][1])
         endNum = int(s.split(':')[1][1])
-
         startLetter = s.split(':')[0][0]
         endLetter = s.split(':')[1][0]
-
         startIndex = ord(startLetter)
         endIndex = ord(endLetter)
 
