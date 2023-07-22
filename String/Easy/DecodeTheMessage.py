@@ -7,7 +7,6 @@
 # For example, given key = "happy boy" (actual key would have at least one instance of each letter in the alphabet), we have the partial substitution table of ('h' -> 'a', 'a' -> 'b', 'p' -> 'c', 'y' -> 'd', 'b' -> 'e', 'o' -> 'f').
 # Return the decoded message.
 
-
 class Solution(object):
     def decodeMessage(self, key, message):
         lst = []
