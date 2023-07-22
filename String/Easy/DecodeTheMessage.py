@@ -30,6 +30,5 @@ class Solution(object):
 
         return decodedMsg
 
-
 result = Solution().decodeMessage(
     "eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb")
