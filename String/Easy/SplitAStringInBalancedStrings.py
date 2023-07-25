@@ -17,6 +17,5 @@ class Solution(object):
                 final += 1
         return final
 
-
 result = Solution().balancedStringSplit("RLRRRLLRLL")
 print(result)
