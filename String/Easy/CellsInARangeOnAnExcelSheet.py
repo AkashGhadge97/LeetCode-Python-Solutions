@@ -1,5 +1,4 @@
 # A cell (r, c) of an excel sheet is represented as a string "<col><row>" where:
-
 # <col> denotes the column number c of the cell. It is represented by alphabetical letters.
 # For example, the 1st column is denoted by 'A', the 2nd by 'B', the 3rd by 'C', and so on.
 # <row> is the row number r of the cell. The rth row is represented by the integer r.
