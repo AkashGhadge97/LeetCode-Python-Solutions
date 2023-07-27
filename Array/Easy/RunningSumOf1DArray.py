@@ -11,6 +11,5 @@ class Solution(object):
             final.append(total)
         return final
 
-
 result = Solution().runningSum([1, 2, 3, 4])
 print(result)
