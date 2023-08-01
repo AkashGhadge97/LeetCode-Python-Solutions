@@ -20,6 +20,5 @@ class Solution(object):
                 count += 1
         return count
 
-
 result = Solution().countPoints("B0B6G0R6R0R6G9")
 print(result)
