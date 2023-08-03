@@ -2,7 +2,6 @@
 # For each index i, names[i] and heights[i] denote the name and height of the ith person.
 # Return names sorted in descending order by the people's heights.
 
-
 class Solution(object):
     def sortPeople(self, names, heights):
         pdict = {}
